@@ -1,0 +1,27 @@
+//write here your scss styles
+@import './shared/index';
+@import 'reset.scss';
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: $default-rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
