@@ -29,7 +29,7 @@
             .header__menu_1_list {
                 margin-right: 1rem;
                 @extend %size-text;
-                @media screen and (max-width: 1000px) {
+                @media screen and (max-width: 1050px) {
                     font-size: 0.75rem;
                 }
             }
@@ -59,7 +59,7 @@
             .header__menu_2_list {
                 margin-right: 2rem;
                 @extend %size-text;
-                @media screen and (max-width: 1000px) {
+                @media screen and (max-width: 1050px) {
                     font-size: 0.75rem;
                 }
             }
