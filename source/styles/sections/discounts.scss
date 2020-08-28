@@ -1,0 +1,53 @@
+@import '../shared/index.scss';
+.discounts {
+    width: 100%;
+    background: #212121;
+}
+
+.discounts__content {
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 990px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.discounts__content_title {
+    margin: 4.5rem 3.75rem 4.5rem 0;
+    @extend %size_weit_title;
+    @media screen and (max-width: 990px) {
+        font-size: 1.25rem;
+        text-align: center;
+        margin: 2rem auto;
+    }
+}
+
+.discounts__content_input {
+    margin-right: 3.1rem;
+    width: 255px;
+    height: 40px;
+    background: #F9F6F1;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #8D8D8D;
+    @media screen and (max-width: 990px) {
+        margin: 0 auto 2rem;
+    }
+}
+
+.discounts__content_button {
+    width: 185px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #D7B399;
+}

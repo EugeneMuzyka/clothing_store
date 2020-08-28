@@ -1,93 +1,93 @@
-                            @import '../shared/index';
-                            //секция одежды
-                            .clothes {
-                                width: 100%;
-                                height: 100%;
-                                background: linear-gradient(to right, #F9F6F1 50%, #F4F4F4 50%);
-                                @media screen and (max-width: 780px) {
-                                    background: linear-gradient(to bottom, #F9F6F1 50%, #F4F4F4 50%);
-                                }
-                            }
-                            
-                            .grid-wraper {
-                                position: fixed;
-                                top: 0;
-                                left: 0;
-                                width: 100%;
-                                height: 100vh;
-                            }
-                            
-                            .grid-container {
-                                max-width: 1110px;
-                                margin: 0 auto;
-                                padding: 0 15px;
-                            }
-                            
-                            .row {
-                                margin: 0 -15px;
-                                display: flex;
-                                height: 100%;
-                                max-width: 1110px;
-                            }
-                            
-                            .collection {
-                                position: relative;
-                                height: 250px;
-                                z-index: 2;
-                                @media screen and (max-width: 700px) {
-                                    padding-left: 2.25rem;
-                                }
-                            }
-                            
-                            .collection-women {
-                                position: relative;
-                                height: 250px;
-                                margin-left: 2.25rem;
-                                z-index: 2;
-                            }
-                            
-                            .collection__title {
-                                margin: 3.75rem 0 1.56rem;
-                                font-style: normal;
-                                font-weight: 500;
-                                font-size: 1.5rem;
-                                line-height: 1.8rem;
-                                letter-spacing: 0.03em;
-                                color: #000000;
-                            }
-                            
-                            .collection__title_span {
-                                font-weight: 100;
-                            }
-                            
-                            .collection__text {
-                                font-style: normal;
-                                font-weight: 300;
-                                font-size: 16px;
-                                line-height: 20px;
-                                color: #000000;
-                            }
-                            
-                            .collection__button {
-                                margin-top: 2.5rem;
-                                width: 80px;
-                                height: 30px;
-                                background: #D7B399;
-                                color: #FFFFFF;
-                            }
-                            
-                            .collection_men-photo {
-                                position: relative;
-                                margin: 5.5rem 0 0 -5rem;
-                                width: 190px;
-                                height: 170px;
-                                z-index: 1;
-                                @media screen and (max-width: 300px) {
-                                    margin: 5.5rem 0 0 -8rem;
-                                }
-                            }
-                            
-                            .collection_men-photo_teg {
-                                width: 130%;
-                                height: 130%;
-                            }
+@import "../shared/index";
+//секция одежды
+.clothes {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #f9f6f1 50%, #f4f4f4 50%);
+    @media screen and (max-width: 780px) {
+        background: linear-gradient(to bottom, #f9f6f1 50%, #f4f4f4 50%);
+    }
+}
+
+.grid-wraper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.grid-container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    margin: 0 -15px;
+    display: flex;
+    height: 100%;
+    max-width: 1110px;
+}
+
+.collection {
+    position: relative;
+    height: 250px;
+    z-index: 2;
+    @media screen and (max-width: 700px) {
+        padding-left: 2.25rem;
+    }
+}
+
+.collection-women {
+    position: relative;
+    height: 250px;
+    margin-left: 2.25rem;
+    z-index: 2;
+}
+
+.collection__title {
+    margin: 3.75rem 0 1.56rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.collection__title_span {
+    font-weight: 100;
+}
+
+.collection__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.collection__button {
+    margin-top: 2.5rem;
+    width: 80px;
+    height: 30px;
+    background: #d7b399;
+    color: #ffffff;
+}
+
+.collection_men-photo {
+    position: relative;
+    margin: 5.5rem 0 0 -5rem;
+    width: 190px;
+    height: 170px;
+    z-index: 1;
+    @media screen and (max-width: 300px) {
+        margin: 5.5rem 0 0 -8rem;
+    }
+}
+
+.collection_men-photo_teg {
+    width: 130%;
+    height: 130%;
+}

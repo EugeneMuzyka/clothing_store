@@ -184,12 +184,7 @@
                 width: 240px;
                 height: 55px;
                 background: #D7B399;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 1rem;
-                line-height: 1.25rem;
-                letter-spacing: 0.03em;
-                color: #FFFFFF;
+                @extend %text_size_button;
                 @media screen and (max-width: 1000px) {
                     display: block;
                     margin: 0 auto;
